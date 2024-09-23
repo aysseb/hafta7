@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Alıştırma1</title>
+    <style>
+        #bolge1{
+            display: flex;
+            background-color: lightblue;
+            gap: 1rem;
+
+        }
+        .kutular{
+            height: 100px;
+            width: 100px;
+            background-color: lightpink;
+
+        }
+        #kutu2{
+            flex-grow: 1;
+        }
+        .kutular:nth-of-type(1)::after{
+            content: "Kutu 1";
+           
+        }
+        .kutular:nth-of-type(2)::after{
+            content: "Kutu 2";
+           
+        }
+        .kutular:nth-of-type(3)::after{
+            content: "Kutu 3";
+           
+        }
+       
+
+    </style>
+</head>
+<body>
+    <section id="bolge1">
+        <div class="kutular" id="kutu1"></div>
+        <div class="kutular" id="kutu2"></div>
+        <div class="kutular" id="kutu3"></div>
+    </section>
+    
+</body>
+</html>
