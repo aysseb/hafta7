@@ -6,6 +6,10 @@
     --tema-mavi: #0060df;
     --tema-mavi-koyu:#0025df;
     --tema-beyaz: white;
+    --tema-mor:#b833e1;
+    --tema-acik-mavi: #f9f9fa;
+    --tema-acik-mor:#e7dfff;
+    --tema-siyah:#000000;
 }
 body{
     margin: 0;
@@ -67,4 +71,118 @@ section#bolge1{
 }
 .flex-1{
     flex: 1;
+    
 }
+/*BOLGE 2 KODLARI*/
+#bolge2 > p{
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 3rem 0;
+    font-weight: bold;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.mor-yazi{
+    color: var(--tema-mor);
+}
+/*BOLGE3 KODLARI*/
+#bolge3{
+    background-color: var(--tema-acik-mavi);
+    padding: 2rem;
+    text-align:left;
+}
+#bolge3>.kapsayici>div{
+    max-width: 550px;
+    
+}
+#bolge3 > .kapsayici > div> h2{
+    font-size: 2.7rem;
+}
+#bolge3>.kapsayici>div{
+    max-width: 550px;
+    
+}
+/*BOLGE4 KODLARI*/
+#bolge4{
+    padding: 2rem;
+    text-align: left;
+}
+#bolge4>.kapsayici>div{
+    max-width: 550px;
+}
+
+/*BOLGE5 KODLARI*/
+
+section#bolge5{
+    text-align: center;
+    background-color: var(--tema-acik-mor);
+    padding: 2rem;
+    margin-top: 1rem;
+}
+#bolge5>h3{
+    font-weight: 500;
+}
+/*BOLGE6 KODLARI*/
+section#bolge6{
+    text-align: center;
+    padding: 2rem; 
+    
+}
+
+#bolge6>div{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+#bolge6>div>.silik-yazi{
+    font-weight: bold;
+    color: gray;
+}
+/*BOLGE7 KODLARI*/
+section#bolge7{
+    text-align: center;
+    padding: 2rem;
+    background-color: var(--tema-acik-mavi);
+}
+#bolge7>ul{
+    padding: 2rem;
+    line-height: 2rem;
+}
+/*BOLGE8 KODLARI*/
+section#bolge8{
+    text-align: center;
+    padding: 2rem;
+
+}
+#bolge8>.flex-kutu{
+    display: flex;
+}
+.arti{
+    color: blue;
+    font-size: large;
+}
+/*BOLGE9 KODLARI*/
+section#bolge9{
+    text-align: center;
+    background-color: var(--tema-acik-mor);
+    padding: 2rem;
+    margin-top: 1rem;
+}
+#bolge9>h3{
+    font-weight: 500;
+}
+/*FOOTER KODLARI*/
+footer{
+    background-color: var(--tema-siyah);
+    padding: 1.2rem;
+    
+}
+footer img{
+    max-width: 150px;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
